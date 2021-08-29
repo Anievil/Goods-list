@@ -1,0 +1,10 @@
+.goodCont{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: 50px auto 0;
+    overflow: auto;
+    overflow-x: hidden
+}

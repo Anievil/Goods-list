@@ -1,0 +1,63 @@
+.authPage{
+    display: flex;
+    background-color: whitesmoke;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 30vw;
+    height: fit-content;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+.loginData, .submit, .changeButton{
+    width: 200px;
+    margin: 25px auto 0;
+    outline: none;
+    height: 35px;
+    font-size: 18px;
+    transition: all .3s;
+}
+
+.loginData{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    padding-left: 10px;
+}
+
+.loginData:hover{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.submit{
+    border-radius: 25px;
+    background-color: lightgreen;
+    border: 1px solid green;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.submit:hover{
+    background-color: rgb(23, 173, 23);
+    border: 5px solid lightgreen
+}
+
+.changeButton{
+    margin-bottom: 25px;
+    width: fit-content;
+    border-radius: 25px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.changeButton:hover{
+    background-color: rgb(184, 183, 183);
+}

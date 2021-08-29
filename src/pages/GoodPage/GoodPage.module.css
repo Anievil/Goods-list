@@ -1,0 +1,16 @@
+.goodPage{
+    display: flex;
+    justify-content: space-around;
+    width: 60vw;
+    margin: 50px auto;
+    padding-top: 10px;
+    background-color: whitesmoke;
+}
+
+.infoCont{
+    margin-top: 20px;
+}
+
+.goodPage > h2{
+    text-align: center;
+}

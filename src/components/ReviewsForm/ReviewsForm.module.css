@@ -1,0 +1,25 @@
+.commentInput{
+    width: 200px;
+    min-height: 70px;
+    resize: none;
+    box-sizing: border-box;
+    margin: 10px auto;
+    outline: none;
+}
+
+.commentForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.rateInput{
+    width: 150px;
+    margin: 0px auto 10px;
+    outline: none;
+}
+
+.submit{
+    width: 100px;
+    margin: 0px auto 10px;
+    outline: none;
+}
